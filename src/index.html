@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF to JPG Online Free - Convert PDF Pages to Images | DevVault</title>
+<meta name="description" content="Convert every page of a PDF into a high-quality JPG image. Download as individual images or a ZIP. Rendered locally with PDF.js.">
+<meta name="robots" content="index, follow">
+<!-- canonical removed -->
+<link rel="stylesheet" href="style.css">
+<script src="lib/pdf-lib.min.js"></script><script src="lib/pdf.min.js"></script><script src="lib/jszip.min.js"></script>
+<script src="pdf-tools-app.js"></script>
+<script>
+var pdfjsLib = window["pdfjs-dist/build/pdf"]; pdfjsLib.GlobalWorkerOptions.workerSrc = "/tools/lib/pdf.worker.min.js";
+var input=document.getElementById('fi'); var out=document.getElementById('out');
+async function doConvert(){ var f=input.files[0]; if(!f){alert('Select a PDF first');return;}
+  var r=await PDFTools.pdfToImages(f, 2); if(r.ok){ PDFTools.dload(r.blob,r.name); out.innerHTML='<p style="color:#16a34a">'+r.msg+'</p>'; } else { out.innerHTML='<p style="color:#dc2626">'+r.msg+'</p>'; } }
+</script>
+</head>
+<body>
+<header class="top"><a href="https://gitvaults.com/" class="logo">DevVault</a><nav><a href="https://gitvaults.com/tools/">All PDF Tools</a><a href="https://gitvaults.com/">Home</a></nav></header>
+<main class="wrap">
+  <h1>Convert PDF to JPG Images Online</h1>
+  <p class="sub">Convert every page of a PDF into a high-quality JPG image. Download as individual images or a ZIP. Rendered locally with PDF.js.</p>
+
+  <section class="tool" id="tool">
+    <div class="tool-head"><span>🛠️ Online Tool</span><span class="priv">🔒 Local processing - files never uploaded</span></div>
+    <div class="tool-body"><input type="file" id="fi" accept="application/pdf"><button onclick="doConvert()">Convert to JPG</button><div id="out"></div></div>
+  </section>
+
+  <section class="sec">
+    <h2>How It Works</h2>
+    <ol><li>Upload the PDF file.</li><li>Choose image quality/scale (default 2x for crisp output).</li><li>Click 'Convert' - each page renders to JPG in your browser.</li><li>Download the images or ZIP.</li></ol>
+  </section>
+
+  <section class="sec">
+    <h2>Features</h2>
+    <ul><li>Converts every PDF page to a JPG image</li><li>Adjustable quality/scale</li><li>Download individually or as ZIP</li><li>Pure browser rendering with PDF.js</li><li>Free, private, no upload</li></ul>
+  </section>
+
+  <section class="sec">
+    <h2>FAQ</h2>
+    <details><summary>What image format is output?</summary><p>JPG (PNG also available on request) - each page becomes one image.</p></details><details><summary>Is the rendering accurate?</summary><p>Yes, it uses PDF.js - the same engine used by Firefox's built-in PDF viewer.</p></details><details><summary>Are files uploaded?</summary><p>No, rendering happens entirely in your browser.</p></details><details><summary>Can I convert a specific page?</summary><p>Currently all pages convert; page selection is coming soon.</p></details>
+  </section>
+
+  <section class="sec">
+    <h2>Related Tools</h2>
+    <div class="rels"><a class="rel" href="/tools/jpg-to-pdf/">JPG to PDF</a><a class="rel" href="https://gitvaults.com/tools/pdf-optimize/">PDF Optimize</a><a class="rel" href="https://gitvaults.com/tools/pdf-merge/">PDF Merge</a></div>
+  </section>
+
+  <p class="kw">Keywords: pdf to jpg online · pdf to image converter · convert pdf pages to jpg · pdf to png free</p>
+</main>
+<footer class="foot"><p>© 2026 DevVault · <a href="https://gitvaults.com/tools/">Online PDF Tools</a> · All processing is local in your browser</p></footer>
+</body>
+</html>
