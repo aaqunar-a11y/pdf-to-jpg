@@ -1,6 +1,6 @@
-# PDF To JPG
+# Pdf To Jpg
 
-> Free PDF To JPG tool by [GitVaults](https://gitvaults.com). Runs 100% locally — your files never leave your device.
+> Free Pdf To Jpg tool by [知办库 Zhibanku](https://www.zhibanku.com). Runs 100% locally — your files never leave your device.
 
 ## ✨ Features
 
@@ -11,13 +11,13 @@
 
 ## 🚀 Try It Online
 
-**[GitVaults PDF To JPG](https://gitvaults.com/tools/pdf-to-jpg/)**
+**[PDF 转图像 — 在线工具](https://www.zhibanku.com/pdf-tools/pdf-to-image.html)**
 
 Use it instantly in your browser, no installation required.
 
 ## 💾 Portable Version (Windows)
 
-**[Download the portable app](https://gitvaults.com/download/pdf-to-jpg/)**
+**[下载绿色版（ZIP）](https://www.zhibanku.com/pdf-tools/pdf-to-image.html)**
 
 - No installation, no registry changes, no leftovers
 - Works on Windows 10 / 11 (64-bit)
@@ -46,10 +46,17 @@ MIT License — see [LICENSE](LICENSE).
 
 ## 🔗 Links
 
-- Official website (GitVaults): [https://gitvaults.com](https://gitvaults.com)
-- Online tool: [GitVaults PDF To JPG](https://gitvaults.com/tools/pdf-to-jpg/)
-- Download page: [https://gitvaults.com/download/pdf-to-jpg/](https://gitvaults.com/download/pdf-to-jpg/)
+- Official website: [https://www.zhibanku.com](https://www.zhibanku.com)
+- Online tool: [PDF 转图像](https://www.zhibanku.com/pdf-tools/pdf-to-image.html)
+- Download page: [PDF 转图像 绿色版](https://www.zhibanku.com/pdf-tools/pdf-to-image.html)
 - Issues: [https://github.com/aaqunar-a11y/pdf-to-jpg/issues](https://github.com/aaqunar-a11y/pdf-to-jpg/issues)
 
 ---
-© 2026 GitVaults · https://gitvaults.com
+© 2026 知办库 Zhibanku · https://www.zhibanku.com
+
+---
+
+## Links
+
+- [知办库 Zhibanku](https://www.zhibanku.com) — free online tools, green software downloads & office templates
+- [PDF 转图像（在线免费）](https://www.zhibanku.com/pdf-tools/pdf-to-image.html)
